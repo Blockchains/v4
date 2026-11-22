@@ -33,7 +33,8 @@ security_txt! {
 }
 
 #[cfg(not(feature = "testing"))]
-declare_id!("SQDS4ep65T869zMMBKyuUq6aD6EgTu8psMjkvj52pCf");
+// Sol.College lab deployment (devnet only). Official id SQDS4ep65T869zMMBKyuUq6aD6EgTu8psMjkvj52pCf is NOT reused.
+declare_id!("TZNQuhC8PSqQY7Szj9RJsMQirVooYSahh396QNqTMGU");
 
 #[cfg(feature = "testing")]
 declare_id!("GyhGAqjokLwF9UXdQ2dR5Zwiup242j4mX4J1tSMKyAmD");
